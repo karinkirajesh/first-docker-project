@@ -8,4 +8,4 @@ WORKDIR /app
 COPY . .
 
 #once container is ready run this command 
-CMD ["python", "add.py"]
+CMD ["python", "addition.py"]
